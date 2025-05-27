@@ -16,7 +16,7 @@ This project is an ESP32-based receiver that uses **ESP-NOW** protocol to receiv
 ---
 ## User Interface Dashboard
 
-!UI Dashboard](Images/UI_Dashboard.png)
+![UI Dashboard](Images/UI_Dashboard.png)
 
 ---
 
