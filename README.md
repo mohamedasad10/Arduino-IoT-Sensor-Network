@@ -19,6 +19,8 @@ This project is an ESP32-based receiver that uses **ESP-NOW** protocol to receiv
 
 - ESP32 development board (receiver)
 - Multiple ESP32 sensor nodes (senders) sending temperature, humidity, and light data via ESP-NOW
+- Temperature & Humidity Sensor — Common choices: DHT11 or DHT22
+- Light Sensor — Could be: A simple photoresistor (LDR)
 
 ---
 
@@ -70,3 +72,37 @@ An AsyncWebServer serves a simple HTML page for the dashboard.
 
 Server-Sent Events (SSE) are used to push live updates to connected web clients every 5 seconds.
    
+---
+# Getting Started
+
+## Installation (For Users)
+
+### Set Up Hardware
+- Connect the ESP32 boards as shown in the system diagram.
+- Ensure all boards are powered and configured for wireless P2P communication.
+
+### Upload Firmware
+- Download the Arduino firmware .
+- Flash the firmware onto each ESP32 board using an appropriate tool (e.g., ESP32 Flash Download Tool).
+
+### Launch the System
+- Power on all ESP32 boards.
+- Access the UI dashboard on the receiver node to view real-time data.
+
+---
+
+### Installation (For Developers/Contributors)
+
+1. **Fork the Repository**: Fork this repository to your GitHub account.
+2. **Clone the Repository**:
+   - Clone the repository:
+
+     ```
+     git clone <your-forked-repo-url>
+     ```
+3. **Set Up Development Environment**:
+   - Open the project in your preferred IDE (e.g., Arduino IDE or PlatformIO).
+   - Ensure the ESP32 board support package is installed.
+4. **Upload and Test**:
+   - Upload the code to each ESP32 board.
+   - Test the system by monitoring the receiver node’s UI dashboard data.
