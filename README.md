@@ -37,3 +37,23 @@ This project is an ESP32-based receiver that uses **ESP-NOW** protocol to receiv
    ```cpp
    const char* ssid = "YOUR_SSID";
    const char* password = "YOUR_PASSWORD";
+
+   ## Flash the Code to Your ESP32 Receiver Board
+
+2. **Use the Arduino IDE or PlatformIO to compile and upload the code to your ESP32 receiver board.**
+
+---
+
+3. ** Connect Your ESP32 Sensor Nodes**
+
+Make sure the sender nodes are programmed to transmit sensor data over ESP-NOW using the same data structure.
+
+---
+
+4. **Access the Dashboard**
+
+After booting, the receiver will connect to your Wi-Fi and print the IP address in the Serial Monitor.  
+Open the IP address in your browser to view the ESP-NOW Sensor Dashboard.
+
+---
+   
