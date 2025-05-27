@@ -1,5 +1,4 @@
 # Arduino-IoT-Sensor-Network
-ESP-NOW Receiver Dashboard
 
 This project is an ESP32-based receiver that uses **ESP-NOW** protocol to receive sensor data packets from multiple ESP32 sensor nodes. The receiver acts as a Wi-Fi station and runs an asynchronous web server to display a simple dashboard for monitoring sensor readings in real-time.
 ![IoT Diagram](Images/IoTDiagram.png)
