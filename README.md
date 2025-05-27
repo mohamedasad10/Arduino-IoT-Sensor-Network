@@ -2,6 +2,7 @@
 ESP-NOW Receiver Dashboard
 
 This project is an ESP32-based receiver that uses **ESP-NOW** protocol to receive sensor data packets from multiple ESP32 sensor nodes. The receiver acts as a Wi-Fi station and runs an asynchronous web server to display a simple dashboard for monitoring sensor readings in real-time.
+![IoT Diagram](Images/IoTDiagram.png)
 
 ---
 
@@ -12,6 +13,10 @@ This project is an ESP32-based receiver that uses **ESP-NOW** protocol to receiv
 - Uses AsyncWebServer and Server-Sent Events (SSE) for live data communication.
 - Wi-Fi station mode connects to your local network to provide access to the dashboard.
 - Displays sender MAC address and validates incoming data.
+---
+## User Interface Dashboard
+
+!UI Dashboard](Images/UI_Dashboard.png)
 
 ---
 
@@ -21,6 +26,7 @@ This project is an ESP32-based receiver that uses **ESP-NOW** protocol to receiv
 - Multiple ESP32 sensor nodes (senders) sending temperature, humidity, and light data via ESP-NOW
 - Temperature & Humidity Sensor — Common choices: DHT11 or DHT22
 - Light Sensor — Could be: A simple photoresistor (LDR)
+- Breadboard
 
 ---
 
